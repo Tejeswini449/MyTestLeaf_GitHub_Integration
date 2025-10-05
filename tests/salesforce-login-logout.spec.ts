@@ -19,4 +19,5 @@ test("Salesforce Login and Logout", async ({ page }) => {
   // Verify logout by checking login page is visible again
   await expect(page.locator("#username")).toBeVisible();
   console.log("Login and Logout successful");
+  console.log("Checking the GitHub code update")
 });
