@@ -1,0 +1,20 @@
+{
+  "name": "pw_copilot_integration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.3.0"
+  }
+  ,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed --project=chromium",
+    "posttest": "npx playwright show-report"
+  }
+}
